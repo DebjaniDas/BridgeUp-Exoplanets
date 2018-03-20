@@ -1,0 +1,175 @@
+#Names for columns in the planets.csv file:
+# COLUMN pl_hostname:    Host Name
+# COLUMN pl_letter:      Planet Letter
+# COLUMN pl_discmethod:  Discovery Method
+# COLUMN pl_pnum:        Number of Planets in System
+# COLUMN pl_orbper:      Orbital Period [days]
+# COLUMN pl_orbpererr1:  Orbital Period Upper Unc. [days]
+# COLUMN pl_orbpererr2:  Orbital Period Lower Unc. [days]
+# COLUMN pl_orbperlim:   Orbital Period Limit Flag
+# COLUMN pl_orbsmax:     Orbit Semi-Major Axis [AU]
+# COLUMN pl_orbsmaxerr1: Orbit Semi-Major Axis Upper Unc. [AU]
+# COLUMN pl_orbsmaxerr2: Orbit Semi-Major Axis Lower Unc. [AU]
+# COLUMN pl_orbsmaxlim:  Orbit Semi-Major Axis Limit Flag
+# COLUMN pl_bmassj:      Planet Mass or M*sin(i)[Jupiter mass]
+# COLUMN pl_bmassjerr1:  Planet Mass or M*sin(i)Upper Unc. [Jupiter mass]
+# COLUMN pl_bmassjerr2:  Planet Mass or M*sin(i)Lower Unc. [Jupiter mass]
+# COLUMN pl_bmassjlim:   Planet Mass or M*sin(i)Limit Flag
+# COLUMN pl_radj:        Planet Radius [Jupiter radii]
+# COLUMN pl_radjerr1:    Planet Radius Upper Unc. [Jupiter radii]
+# COLUMN pl_radjerr2:    Planet Radius Lower Unc. [Jupiter radii]
+# COLUMN pl_radjlim:     Planet Radius Limit Flag
+# COLUMN ra:             RA [degrees]
+# COLUMN dec:            Dec [degrees]
+# COLUMN st_dist:        Distance [pc]
+# COLUMN st_disterr1:    Distance Upper Unc. [pc]
+# COLUMN st_disterr2:    Distance Lower Unc. [pc]
+# COLUMN st_distlim:     Distance Limit Flag
+# COLUMN st_optmag:      Optical Magnitude [mag]
+# COLUMN st_optmagerr:   Optical Magnitude Unc. [mag]
+# COLUMN st_optmaglim:   Optical Magnitude Limit Flag
+# COLUMN st_optmagblend: Optical Magnitude Blend Flag
+# COLUMN st_optband:     Optical Magnitude Band
+# COLUMN gaia_gmag:      G-band (Gaia) [mag]
+# COLUMN gaia_gmagerr:   G-band (Gaia) Unc. [mag]
+# COLUMN gaia_gmaglim:   G-band (Gaia) Limit Flag
+# COLUMN st_teff:        Effective Temperature [K]
+# COLUMN st_tefferr1:    Effective Temperature Upper Unc. [K]
+# COLUMN st_tefferr2:    Effective Temperature Lower Unc. [K]
+# COLUMN st_tefflim:     Effective Temperature Limit Flag
+# COLUMN st_teffblend:   Effective Temperature Blend Flag
+# COLUMN st_mass:        Stellar Mass [Solar mass]
+# COLUMN st_masserr1:    Stellar Mass Upper Unc. [Solar mass]
+# COLUMN st_masserr2:    Stellar Mass Lower Unc. [Solar mass]
+# COLUMN st_masslim:     Stellar Mass Limit Flag
+# COLUMN st_massblend:   Stellar Mass Blend Flag
+# COLUMN st_rad:         Stellar Radius [Solar radii]
+# COLUMN st_raderr1:     Stellar Radius Upper Unc. [Solar radii]
+# COLUMN st_raderr2:     Stellar Radius Lower Unc. [Solar radii]
+# COLUMN st_radlim:      Stellar Radius Limit Flag
+# COLUMN st_radblend:    Stellar Radius Blend Flag
+# COLUMN rowupdate:      Date of Last Update
+# COLUMN pl_name:        Planet Name
+# COLUMN pl_eqt:         Equilibrium Temperature [K]
+# COLUMN pl_eqterr1:     Equilibrium Temperature Upper Unc. [K]
+# COLUMN pl_eqterr2:     Equilibrium Temperature Lower Unc. [K]
+# COLUMN pl_eqtlim:      Equilibrium Temperature Limit Flag
+# COLUMN pl_masse:       Planet Mass [Earth mass]
+# COLUMN pl_masseerr1:   Planet Mass Upper Unc. [Earth mass]
+# COLUMN pl_masseerr2:   Planet Mass Lower Unc. [Earth mass]
+# COLUMN pl_masselim:    Planet Mass Limit Flag
+# COLUMN pl_rade:        Planet Radius [Earth radii]
+# COLUMN pl_radeerr1:    Planet Radius Upper Unc. [Earth radii]
+# COLUMN pl_radeerr2:    Planet Radius Lower Unc. [Earth radii]
+# COLUMN pl_radelim:     Planet Radius Limit Flag
+# COLUMN pl_disc:        Year of Discovery
+# COLUMN st_plx:         Parallax [mas]
+# COLUMN st_plxerr1:     Parallax Upper Unc. [mas]
+# COLUMN st_plxerr2:     Parallax Lower Unc. [mas]
+# COLUMN st_plxlim:      Parallax Limit Flag
+# COLUMN st_plxblend:    Parallax Blend Flag
+# COLUMN gaia_dist:      Gaia Distance [pc]
+# COLUMN gaia_disterr1:  Gaia Distance Upper Unc. [pc]
+# COLUMN gaia_disterr2:  Gaia Distance Lower Unc. [pc]
+# COLUMN gaia_distlim:   Gaia Distance Limit Flag
+# COLUMN st_pmra:        Proper Motion (RA) [mas/yr]
+# COLUMN st_pmraerr:     Proper Motion (RA) Unc. [mas/yr]
+# COLUMN st_pmralim:     Proper Motion (RA) Limit Flag
+# COLUMN st_pmdec:       Proper Motion (Dec) [mas/yr]
+# COLUMN st_pmdecerr:    Proper Motion (Dec) Unc. [mas/yr]
+# COLUMN st_pmdeclim:    Proper Motion (Dec) Limit Flag
+# COLUMN st_pm:          Total Proper Motion [mas/yr]
+# COLUMN st_pmerr:       Total Proper Motion Unc. [mas/yr]
+# COLUMN st_pmlim:       Total Proper Motion Limit Flag
+# COLUMN st_pmblend:     Total Proper Motion Blend Flag
+# COLUMN gaia_pmra:      Gaia Proper Motion (RA) [mas/yr]
+# COLUMN gaia_pmraerr:   Gaia Proper Motion (RA) Unc. [mas/yr]
+# COLUMN gaia_pmralim:   Gaia Proper Motion (RA) Limit Flag
+# COLUMN gaia_pmdec:     Gaia Proper Motion (Dec) [mas/yr]
+# COLUMN gaia_pmdecerr:  Gaia Proper Motion (Dec) Unc. [mas/yr]
+# COLUMN gaia_pmdeclim:  Gaia Proper Motion (Dec) Limit Flag
+# COLUMN gaia_pm:        Gaia Total Proper Motion [mas/yr]
+# COLUMN gaia_pmerr:     Gaia Total Proper Motion Unc. [mas/yr]
+# COLUMN gaia_pmlim:     Gaia Total Proper Motion Limit Flag
+# COLUMN st_radv:        Radial Velocity [km/s]
+# COLUMN st_radverr1:    Radial Velocity Upper Unc. [km/s]
+# COLUMN st_radverr2:    Radial Velocity Lower Unc. [km/s]
+# COLUMN st_radvlim:     Radial Velocity Limit Flag
+# COLUMN st_radvblend:   Radial Velocity Blend Flag
+# COLUMN st_sp:          Spectral Type
+# COLUMN st_spstr:       Spectral Type
+# COLUMN st_sperr:       Spectral Type Unc.
+# COLUMN st_splim:       Spectral Type Limit Flag
+# COLUMN st_spblend:     Spectral Type Blend Flag
+# COLUMN st_logg:        Stellar Surface Gravity [log10(cm/s**2)]
+# COLUMN st_loggerr1:    Stellar Surface Gravity Upper Unc. [log10(cm/s**2)]
+# COLUMN st_loggerr2:    Stellar Surface Gravity Lower Unc. [log10(cm/s**2)]
+# COLUMN st_logglim:     Stellar Surface Gravity Limit Flag
+# COLUMN st_loggblend:   Stellar Surface Gravity Blend Flag
+# COLUMN st_lum:         Stellar Luminosity [log(Solar)]
+# COLUMN st_lumerr1:     Stellar Luminosity Upper Unc. [log(Solar)]
+# COLUMN st_lumerr2:     Stellar Luminosity Lower Unc. [log(Solar)]
+# COLUMN st_lumlim:      Stellar Luminosity Limit Flag
+# COLUMN st_lumblend:    Stellar Luminosity Blend Flag
+# COLUMN st_dens:        Stellar Density [g/cm**3]
+# COLUMN st_denserr1:    Stellar Density Upper Unc. [g/cm**3]
+# COLUMN st_denserr2:    Stellar Density Lower Unc. [g/cm**3]
+# COLUMN st_denslim:     Stellar Density Limit Flag
+# COLUMN st_metfe:       Stellar Metallicity [dex]
+# COLUMN st_metfeerr1:   Stellar Metallicity Upper Unc. [dex]
+# COLUMN st_metfeerr2:   Stellar Metallicity Lower Unc. [dex]
+# COLUMN st_metfelim:    Stellar Metallicity Limit Flag
+# COLUMN st_metfeblend:  Stellar Metallicity Blend Flag
+# COLUMN st_age:         Stellar Age [Gyr]
+# COLUMN st_ageerr1:     Stellar Age Upper Unc. [Gyr]
+# COLUMN st_ageerr2:     Stellar Age Lower Unc. [Gyr]
+# COLUMN st_agelim:      Stellar Age Limit Flag
+# COLUMN st_vsini:       Rot. Velocity V*sin(i) [km/s]
+# COLUMN st_vsinierr1:   Rot. Velocity V*sin(i) Upper Unc. [km/s]
+# COLUMN st_vsinierr2:   Rot. Velocity V*sin(i) Lower Unc. [km/s]
+# COLUMN st_vsinilim:    Rot. Velocity V*sin(i) Limit Flag
+# COLUMN st_vsiniblend:  Rot. Velocity V*sin(i) Blend Flag
+# COLUMN st_acts:        Stellar Activity S-index
+# COLUMN st_actserr:     Stellar Activity S-index Unc.
+# COLUMN st_actslim:     Stellar Activity S-index Limit Flag
+# COLUMN st_actsblend:   Stellar Activity S-index Blend Flag
+# COLUMN st_actr:        Stellar Activity log(R'HK)
+# COLUMN st_actrerr:     Stellar Activity log(R'HK) Unc.
+# COLUMN st_actrlim:     Stellar Activity log(R'HK) Limit Flag
+# COLUMN st_actrblend:   Stellar Activity log(R'HK) Blend Flag
+# COLUMN st_actlx:       X-ray Activity log(L<sub>x</sub>)
+# COLUMN st_actlxerr:    X-ray Activity log(L<sub>x</sub>) Unc.
+# COLUMN st_actlxlim:    X-ray Activity log(L<sub>x</sub>) Limit Flag
+# COLUMN st_actlxblend:  X-ray Activity log(L<sub>x</sub>) Blend Flag
+# COLUMN st_uj:          U-band (Johnson) [mag]
+# COLUMN st_ujerr:       U-band (Johnson) Unc. [mag]
+# COLUMN st_ujlim:       U-band (Johnson) Limit Flag
+# COLUMN st_ujblend:     U-band (Johnson) Blend Flag
+# COLUMN st_vj:          V-band (Johnson) [mag]
+# COLUMN st_vjerr:       V-band (Johnson) Unc. [mag]
+# COLUMN st_vjlim:       V-band (Johnson) Limit Flag
+# COLUMN st_vjblend:     V-band (Johnson) Blend Flag
+# COLUMN st_bj:          B-band (Johnson) [mag]
+# COLUMN st_bjerr:       B-band (Johnson) Unc. [mag]
+# COLUMN st_bjlim:       B-band (Johnson) Limit Flag
+# COLUMN st_bjblend:     B-band (Johnson) Blend Flag
+# COLUMN st_rc:          R-band (Cousins) [mag]
+# COLUMN st_rcerr:       R-band (Cousins) Unc. [mag]
+# COLUMN st_rclim:       R-band (Cousins) Limit Flag
+# COLUMN st_rcblend:     R-band (Cousins) Blend Flag
+# COLUMN st_ic:          I-band (Cousins) [mag]
+# COLUMN st_icerr:       I-band (Cousins) Unc. [mag]
+# COLUMN st_iclim:       I-band (Cousins) Limit Flag
+# COLUMN st_icblend:     I-band (Cousins) Blend Flag
+# COLUMN st_j:           J-band (2MASS) [mag]
+# COLUMN st_jerr:        J-band (2MASS) Unc. [mag]
+# COLUMN st_jlim:        J-band (2MASS) Limit Flag
+# COLUMN st_jblend:      J-band (2MASS) Blend Flag
+# COLUMN st_h:           H-band (2MASS) [mag]
+# COLUMN st_herr:        H-band (2MASS) Unc. [mag]
+# COLUMN st_hlim:        H-band (2MASS) Limit Flag
+# COLUMN st_hblend:      H-band (2MASS) Blend Flag
+# COLUMN st_k:           Ks-band (2MASS) [mag]
+# COLUMN st_kerr:        Ks-band (2MASS) Unc. [mag]
+# COLUMN st_klim:        Ks-band (2MASS) Limit Flag
+# COLUMN st_kblend:      Ks-band (2MASS) Blend Flag
